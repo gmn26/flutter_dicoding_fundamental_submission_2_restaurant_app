@@ -9,6 +9,7 @@ class RestaurantDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final restaurantId = Get.arguments;
+    Get.delete<RestaurantDetailController>();
     final controller = Get.put(RestaurantDetailController(id: restaurantId));
 
     return Scaffold(
@@ -80,7 +81,7 @@ class RestaurantDetailPage extends StatelessWidget {
                         left: 24,
                         child: IconButton(
                           onPressed: () {
-                            Navigator.pop(context);
+                            Get.back();
                           },
                           icon: const Icon(
                             Icons.arrow_back,

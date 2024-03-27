@@ -51,5 +51,6 @@ class RestaurantDetailController extends GetxController {
   void onInit() {
     fetchRestaurantsDetail(id);
     super.onInit();
+    super.dispose();
   }
 }

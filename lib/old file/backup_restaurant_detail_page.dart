@@ -1,6 +1,5 @@
 import 'package:dicoding_fundamental_submission_2_restaurant_app_with_api/old%20file/api/api_service.dart';
 import 'package:dicoding_fundamental_submission_2_restaurant_app_with_api/data/model/restaurant_detail.dart';
-import 'package:dicoding_fundamental_submission_2_restaurant_app_with_api/widgets/getx.dart';
 import 'package:dicoding_fundamental_submission_2_restaurant_app_with_api/widgets/restaurant_star_rate.dart';
 import 'package:flutter/material.dart';
 
@@ -134,7 +133,6 @@ class _RestaurantDetailPageState extends State<RestaurantDetailPage> {
                                   ),
                                 ],
                               ),
-                              const GetXWidgets(),
                             ],
                           ),
                           Padding(
