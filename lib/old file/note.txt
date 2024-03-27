@@ -1,0 +1,5 @@
+This folder is contain all previous version of my code
+
+Its still did not using state management package
+
+But i still want to keep the code, so i collect it all in this folder
